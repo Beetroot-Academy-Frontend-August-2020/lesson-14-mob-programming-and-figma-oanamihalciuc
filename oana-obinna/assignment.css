@@ -1,0 +1,37 @@
+.rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3F250B;
+    margin: 0 auto;
+    width: 700px;
+    padding: 30px;
+
+}
+
+.box {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+
+.box > p:nth-child(2) {
+    font-size: 18px;
+}
+
+.box > p:nth-child(1) {
+    text-align: center;
+}
+
+#corners {
+    border-radius: 15px 0px 15px 0px;
+    background: orange;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+}
